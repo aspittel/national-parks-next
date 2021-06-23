@@ -1,0 +1,82 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nationalparks-dev-105910-authRole",
+      "UnauthRoleArn": "arn:aws:iam::000691573582:role/amplify-nationalparks-dev-105910-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::000691573582:role/amplify-nationalparks-dev-105910-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-nationalparks-dev-105910-deployment",
+      "UnauthRoleName": "amplify-nationalparks-dev-105910-unauthRole",
+      "StackName": "amplify-nationalparks-dev-105910",
+      "StackId": "arn:aws:cloudformation:us-east-1:000691573582:stack/amplify-nationalparks-dev-105910/f402df40-d43b-11eb-ab86-0e72af45bdc7",
+      "AmplifyAppId": "dx0qvced7jhg8",
+      "AuthTriggerTemplateURL": ""
+    }
+  },
+  "api": {
+    "nationalparks": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7,
+              "description": ""
+            }
+          },
+          "additionalAuthenticationProviders": []
+        },
+        "GraphQLAPIIdOutput": "6eipatjrirc6jopz3e3wvkkhei",
+        "GraphQLAPIEndpointOutput": "https://5hcxorcvmvcbnmgvnrohicfyim.appsync-api.us-east-1.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-7fgltmohrrartfzchd3el27wz4"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-nationalparks-dev-105910-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apinationalparks"
+      },
+      "lastPushTimeStamp": "2021-06-23T17:33:27.021Z",
+      "lastPushDirHash": "RWWUvxipbELQOUcoJzGLd1rIkYw="
+    }
+  },
+  "auth": {
+    "nationalparks43317f96": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-nationalparks-dev-105910-deployment/amplify-cfn-templates/auth/nationalparks43317f96-cloudformation-template.yml",
+        "logicalId": "authnationalparks43317f96"
+      },
+      "lastPushTimeStamp": "2021-06-23T17:33:25.410Z",
+      "output": {
+        "UserPoolId": "us-east-1_42pbkYibM",
+        "AppClientIDWeb": "7k4o3rb76js3nmckl5f0e8bm34",
+        "AppClientID": "426cpae3sho2jic6har5g14tje",
+        "IdentityPoolId": "us-east-1:724b1db4-577d-4111-b124-97a72489d7cf",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:000691573582:userpool/us-east-1_42pbkYibM",
+        "IdentityPoolName": "nationalparks43317f96_identitypool_43317f96__dev",
+        "UserPoolName": "nationalparks43317f96_userpool_43317f96"
+      },
+      "lastPushDirHash": "NEvya7H8o61OT6F5bqwc3mcL+jI="
+    }
+  },
+  "storage": {
+    "s352414460": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-nationalparks-dev-105910-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+        "logicalId": "storages352414460"
+      },
+      "lastPushTimeStamp": "2021-06-23T17:33:25.412Z",
+      "output": {
+        "BucketName": "nationalparks14180aa717a343e18939cf3be9216ce3105910-dev",
+        "Region": "us-east-1"
+      },
+      "lastPushDirHash": "nczpJ9WotaGWno0NUffUx2cNxCQ="
+    }
+  }
+}

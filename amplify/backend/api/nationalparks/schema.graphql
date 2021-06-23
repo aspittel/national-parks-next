@@ -1,0 +1,13 @@
+type S3Object {
+  bucket: String!
+  region: String!
+  key: String!
+}
+
+type Park @model {
+  id: ID!
+  name: String!
+  image: S3Object
+  visits: [Visit] @connection(keyName: "byPark", fields: ["id"])
+}
+

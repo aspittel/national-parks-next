@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nationalparks-dev-105910-authRole",
+      "UnauthRoleArn": "arn:aws:iam::000691573582:role/amplify-nationalparks-dev-105910-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::000691573582:role/amplify-nationalparks-dev-105910-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-nationalparks-dev-105910-deployment",
+      "UnauthRoleName": "amplify-nationalparks-dev-105910-unauthRole",
+      "StackName": "amplify-nationalparks-dev-105910",
+      "StackId": "arn:aws:cloudformation:us-east-1:000691573582:stack/amplify-nationalparks-dev-105910/f402df40-d43b-11eb-ab86-0e72af45bdc7",
+      "AmplifyAppId": "dx0qvced7jhg8"
+    },
+    "categories": {
+      "auth": {
+        "nationalparks43317f96": {}
+      }
+    }
+  }
+}

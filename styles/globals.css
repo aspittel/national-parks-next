@@ -14,3 +14,31 @@ a {
 * {
   box-sizing: border-box;
 }
+
+amplify-s3-image {
+  --width: 70%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.img-square img h2 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* 
+.img-square h2 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+} */
